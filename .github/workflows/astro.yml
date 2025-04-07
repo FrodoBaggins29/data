@@ -26,6 +26,7 @@ concurrency:
 
 env:
   BUILD_PATH: "." # default value when not using subfolders
+  ASTRO_DATABASE_FILE: "/db/config.ts"
   # BUILD_PATH: subfolder
 
 jobs:
